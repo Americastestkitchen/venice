@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "venice"
+lib_file = File.expand_path("../lib/venice.rb", __FILE__)
+File.read(lib_file) =~ /\bVERSION\s*=\s*["'](.+?)["']/
+version = $1
 
 Gem::Specification.new do |s|
   s.name        = "venice"
