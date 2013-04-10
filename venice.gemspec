@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Mattt Thompson"]
   s.email       = "m@mattt.me"
   s.homepage    = "http://github.com/mattt/venice"
-  s.version     = Venice::VERSION
+  s.version     = version
   s.platform    = Gem::Platform::RUBY
   s.summary     = "iTunes In-App Purchase Receipt Verification"
   s.description = ""
